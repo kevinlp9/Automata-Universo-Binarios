@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 numeros_binarios = []
 conteo_unos = []
 
-with open('C:/Users/solod/OneDrive/Documents/CUARTO SEMESTRE/Teoría de la computación/Ejercicio 1/NumeroDigitos.txt', 'r') as archivo:
+with open('Ubicacion de archivo txt a analizar', 'r') as archivo:
     for linea in archivo:
         numero_binario = linea.strip()
         numeros_binarios.append(numero_binario)
